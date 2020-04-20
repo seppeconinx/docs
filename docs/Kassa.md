@@ -1,2 +1,2 @@
 # Kassa
-[azure](https://dev.azure.com/anyvent/Kassa
+[azure](https://dev.azure.com/anyvent/Kassa)

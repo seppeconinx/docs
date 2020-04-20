@@ -1,2 +1,2 @@
 # Mailinglist
-[azure](https://dev.azure.com/anyvent/Mailinglist
+[azure](https://dev.azure.com/anyvent/Mailinglist)
