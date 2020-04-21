@@ -1,11 +1,11 @@
-#XMl structure Anyvent
+# XML structure Anyvent
 ## User
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Message>
 	<Header>
 		<Sender>{Module}</Sender> //Module vanwaar het komt
-		<Timestamp>hh:mm:ss</Timestamp> //Wanneer het verzonden is
+		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
 		<Type>Create</Type> //Create, Update, Delete
 	</Header>
 	<User>
@@ -27,13 +27,28 @@
 </Message>
 ```
 
+## Mapping
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Message>
+	<Header>
+		<Sender>{Module}</Sender> //Module vanwaar het komt
+		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
+	</Header>
+	<Mapping>
+		<UUID>315685156</UUID>
+		<ID>5</ID>
+	</Mapping>
+</Message>
+```
+
 ## Event
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Message>
 	<Header>
 		<Sender>{Module}</Sender> //Module van waar het komt
-		<Timestamp>hh:mm:ss</Timestamp> //Wanneer het verzonden is
+		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
 		<Type>Create</Type> //Create, Update, Delete
 	</Header>
 	<event>
@@ -65,7 +80,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Heartbeat>
 	<Sender>{Module}</Sender> //Module van waar het komt
-	<Timestamp>hh:mm:ss</Timestamp> //Wanneer het verzonden is
+	<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
 </Heartbeat>
 ```
 
@@ -75,7 +90,7 @@
 <Message>
 	<Header>
 		<Sender>{Module}</Sender> //Module van waar het komt
-		<Timestamp>hh:mm:ss</Timestamp> //Wanneer het verzonden is
+		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
 	</Header>
 	<Log>
 		<Type>Error</Type> //Warning, Error, Info, ...
