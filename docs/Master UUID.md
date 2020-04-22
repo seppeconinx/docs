@@ -7,11 +7,12 @@
 ## Services
 
 ### PHPMyAdmin
-http://10.3.56.4:8080/
+`http://10.3.56.4:8080/`
+
 Credentials:
 - username: root
 - password: password
 
 ### MySql
-http://10.3.56./3306
+`http://10.3.56./3306`
 
