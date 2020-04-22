@@ -48,6 +48,9 @@
 | Name          | port |
 |---------------|------|
 | Wordpress     | 8081 |
+| phpMyAdmin    | 8080 |
+| API           | 9000 |
+
 
 ## RabbitMQ
 - ip: `10.3.56.9`
