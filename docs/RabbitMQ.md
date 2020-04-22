@@ -14,9 +14,9 @@ password: `guest`
 
 master-queue
 
-## Master mapping queue
+## Master user mapping queue
 
-master-mapping-queue
+master-user-mapping-queue
 
 ## RabbitMQ queues
 

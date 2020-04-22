@@ -1,6 +1,6 @@
 # VM's
-## Control room	
-- ip: `10.3.56.3`	
+## Control room
+- ip: `10.3.56.3`
 - account: `anyvent`
 - password: `waterval`
 ### Services
@@ -40,7 +40,7 @@
 - account: `anyvent`
 - password: `waterval`
 
-## Frontend	
+## Frontend
 - ip: `10.3.56.8`
 - account: `anyvent`
 - password: `waterval`
@@ -62,11 +62,11 @@
 | RabbitMQ      | 15672 |
 
 
-## Facturatie	
+## Facturatie
 - ip: `10.3.56.10`
 - account: `anyvent`
 - password: `waterval`
 ### Services
 | Name          | port |
 |---------------|------|
-|               | 8000 |
+| Invoice Ninja | 8000 |
