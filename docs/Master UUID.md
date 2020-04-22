@@ -7,11 +7,11 @@
 ## Services
 
 ### PHPMyAdmin
-`http://10.3.56.4:8080/`
+[Link](http://10.3.56.4:8080/)
 
 Credentials:
-- username: root
-- password: password
+* username: root
+* password: password
 
 ### MySql
 `http://10.3.56./3306`
