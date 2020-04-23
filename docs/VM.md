@@ -52,6 +52,17 @@
 | API           | 9000 |
 
 
+
+## Planning	
+- ip: `10.3.56.11`
+- account: `anyvent`
+- password: `waterval`
+### Services
+| Name          | port |
+|---------------|------|
+| API           | 9000 |
+
+
 ## RabbitMQ
 - ip: `10.3.56.9`
 - account: `anyvent`

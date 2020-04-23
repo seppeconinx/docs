@@ -20,7 +20,7 @@ master-user-mapping-queue
 
 ## RabbitMQ queues
 
-[XML structuur]([https://anyvent.github.io/docs/XML/)
+[XML structuur](https://anyvent.github.io/docs/XML/)
 
 ### Control room
 | Item| queue|
