@@ -1,7 +1,7 @@
 # Kassa
 [azure](https://dev.azure.com/anyvent/Kassa)
 
-## [Odoo](https://www.odoo.com) is een business management software-packet met alle nodige modules om een bedrijf te kunnen beheren.
+#### [Odoo](https://www.odoo.com) is een business management software-packet met alle nodige modules om een bedrijf te kunnen beheren.
 
 Wij gebruiken enkel de module Point-of-Sales voor onze applicatie en hosten deze in een docker container op een ubuntu VM.
 
