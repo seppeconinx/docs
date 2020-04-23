@@ -6,7 +6,7 @@
 login: `admin`
 password: `admin`
 
-[Link naar database](http://10.3.56.8:8080)
+[Link naar mysql database](http://10.3.56.8:8080)
 login: `wordpress`
 password: `wordpress`
 
