@@ -20,7 +20,7 @@ PostgreSQL
 ### Toegang tot [Odoo](http://10.3.56.5:8071/web/login) webinterface
 - http://10.3.56.5:8071/web/login
 - Username: `ehb@ehb`
-- Wachtwoord: `ehb`
+- Wachtwoord: `123`
 
 Toegang tot Odoo VM
 ssh anyvent@10.3.56.5
