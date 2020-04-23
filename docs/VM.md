@@ -53,7 +53,7 @@
 
 
 
-## Planning	
+## Planning
 - ip: `10.3.56.11`
 - account: `anyvent`
 - password: `waterval`
@@ -81,3 +81,4 @@
 | Name          | port |
 |---------------|------|
 | Invoice Ninja | 8000 |
+
