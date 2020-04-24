@@ -45,8 +45,8 @@
 ```
 
 ## Event
-```xml
 ❌ [schema](https://raw.githubusercontent.com/Anyvent/XSD/master/event.xsd)
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Message>
 	<Header>
