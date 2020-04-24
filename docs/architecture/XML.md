@@ -16,7 +16,7 @@
 		<Email>jonas.van.den.cruyce@student.ehb.be</Email>
 		<Address>
 			<Street>Steenweg</Street>
-			<Housenmuber>15</Housenmuber>
+			<Housenumber>15</Housenumber>
 			<City>Opwijk</City>
 			<Zip>1745</Zip>
 		</Address>
@@ -61,7 +61,7 @@
 		<Time>hh:mm</Time>
 		<Address>
 			<Street>Steenweg</Street>
-			<Housenmuber>15</Housenmuber>
+			<Housenumber>15</Housenumber>
 			<City>Opwijk</City>
 			<Zip>1745</Zip>
 		</Address>
@@ -88,7 +88,7 @@
 </Heartbeat>
 ```
 
-## Error
+## Log
 ❌ [schema]()
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
