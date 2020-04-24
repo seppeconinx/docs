@@ -1,6 +1,6 @@
 # VM's
-## Control room	
-- ip: `10.3.56.3`	
+## Control room
+- ip: `10.3.56.3`
 - account: `anyvent`
 - password: `waterval`
 ### Services
@@ -40,7 +40,7 @@
 - account: `anyvent`
 - password: `waterval`
 
-## Frontend	
+## Frontend
 - ip: `10.3.56.8`
 - account: `anyvent`
 - password: `waterval`
@@ -49,6 +49,17 @@
 |---------------|------|
 | Wordpress     | 8081 |
 | phpMyAdmin    | 8080 |
+| API           | 9000 |
+
+
+
+## Planning
+- ip: `10.3.56.11`
+- account: `anyvent`
+- password: `waterval`
+### Services
+| Name          | port |
+|---------------|------|
 | API           | 9000 |
 
 
@@ -62,16 +73,12 @@
 | RabbitMQ      | 15672 |
 
 
-## Facturatie	
+## Facturatie
 - ip: `10.3.56.10`
 - account: `anyvent`
 - password: `waterval`
 ### Services
 | Name          | port |
 |---------------|------|
-|               | 8000 |
+| Invoice Ninja | 8000 |
 
-## Facturatie	
-- ip: `10.3.56.11`
-- account: `anyvent`
-- password: `waterval`

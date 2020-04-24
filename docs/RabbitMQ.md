@@ -9,9 +9,18 @@
 login: `guest`
 password: `guest`
 (login wordt later aangepast)
+
+## Master queue
+
+master-queue
+
+## Master user mapping queue
+
+master-user-mapping-queue
+
 ## RabbitMQ queues
 
-[XML structuur]([https://anyvent.github.io/docs/XML/)
+[XML structuur](https://anyvent.github.io/docs/XML/)
 
 ### Control room
 | Item| queue|
@@ -42,4 +51,11 @@ password: `guest`
 | Item| queue|
 |----------------|------------|
 | User | mailinglist-user-queue |
+
+### Master UUID
+| Item| queue|
+|----------------|------------|
+| User | master-uuid-user-queue |
+
+
 

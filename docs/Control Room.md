@@ -1,6 +1,10 @@
 # Control Room
 [azure](https://dev.azure.com/anyvent/Control Room)
 
+## C# app
+### Algemene info
+Deze applicatie luistert naar alle heartbeats en verwerkt deze data. Deze doet ook de nodige aanpassingen in Elasticsearch.
+
 ## Kibana
 ### Algemene info
 Kibana is de interface waar je kan zien welke systemen up of down zijn.
