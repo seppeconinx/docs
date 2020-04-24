@@ -1,8 +1,9 @@
 # XML structure Anyvent
 ## User
+[schema](https://raw.githubusercontent.com/Anyvent/XSD/master/general_user.xsd)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<Message>
+<Message version="1.0">
 	<Header>
 		<Sender>{Module}</Sender> //Module vanwaar het komt
 		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
@@ -15,7 +16,7 @@
 		<Email>jonas.van.den.cruyce@student.ehb.be</Email>
 		<Address>
 			<Street>Steenweg</Street>
-			<Housenmuber>15</Housenmuber>
+			<Housenumber>15</Housenumber>
 			<City>Opwijk</City>
 			<Zip>1745</Zip>
 		</Address>
@@ -28,9 +29,10 @@
 ```
 
 ## Mapping
+[schema](https://raw.githubusercontent.com/Anyvent/XSD/master/mapping.xsd)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<Message>
+<Message version="1.0">
 	<Header>
 		<Sender>{Module}</Sender> //Module vanwaar het komt
 		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
@@ -43,9 +45,10 @@
 ```
 
 ## Event
+❌ [schema](https://raw.githubusercontent.com/Anyvent/XSD/master/event.xsd)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<Message>
+<Message version="1.0">
 	<Header>
 		<Sender>{Module}</Sender> //Module van waar het komt
 		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
@@ -58,7 +61,7 @@
 		<Time>hh:mm</Time>
 		<Address>
 			<Street>Steenweg</Street>
-			<Housenmuber>15</Housenmuber>
+			<Housenumber>15</Housenumber>
 			<City>Opwijk</City>
 			<Zip>1745</Zip>
 		</Address>
@@ -76,18 +79,20 @@
 ```
 
 ## Heartbeat
+[schema](https://raw.githubusercontent.com/Anyvent/XSD/master/heartbeat.xsd)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<Heartbeat>
+<Heartbeat version="1.0">
 	<Sender>{Module}</Sender> //Module van waar het komt
 	<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
 </Heartbeat>
 ```
 
-## Error
+## Log
+❌ [schema]()
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<Message>
+<Message version="1.0">
 	<Header>
 		<Sender>{Module}</Sender> //Module van waar het komt
 		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is

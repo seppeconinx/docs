@@ -27,7 +27,7 @@ URL: [http://10.3.56.3:5601](http://10.3.56.3:5601) (VPN nodig)
 
 Vanuit jullie systeem elke seconde een heartbeat (XML) sturen naar de "heartbeat-exchange" met routing key "heartbeat".
 
-[Link naar XML formaat](https://anyvent.github.io/docs/XML/#heartbeat)
+[Link naar XML formaat](https://anyvent.github.io/docs/architecture/XML/#heartbeat)
  
 IP rabbitmq: `10.3.56.9`
 Port rabbitmq: `5672`
