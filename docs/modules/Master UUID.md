@@ -12,14 +12,14 @@ Taal: C#
 Type: console app
 
 #### User registration from Frontend
-Send [user XML](https://anyvent.github.io/docs/XML/#user) to `master-uuid-user-queue`
+Send [user XML](https://anyvent.github.io/docs/architecture/XML/#user) to `master-uuid-user-queue`
 
-Master UUID will send the [XML](https://anyvent.github.io/docs/XML/#user) to the topic exchange and the topic exchange `topic-ex` will send the message to every other module.
+Master UUID will send the [XML](https://anyvent.github.io/docs/architecture/XML/#user) to the topic exchange and the topic exchange `topic-ex` will send the message to every other module.
 
 
 #### Mapping user in master uuid after saving user in own system
 
-Send [mapping XML](https://anyvent.github.io/docs/XML/#mapping) to `master-user-mapping-queue` 
+Send [mapping XML](https://anyvent.github.io/docs/architecture/XML/#mapping) to `master-user-mapping-queue` 
 
 
 ### PHPMyAdmin
