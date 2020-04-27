@@ -10,7 +10,7 @@
 - [Mailinglist](http://anyvent.github.io/docs/modules/Mailinglist)
 
 ## Frontend to MasterUUID
-Direct push into [Master UUID](http://anyvent.github.io/docs/modules/Master UUID).
+Direct push into queue `master-uuid-user-queue`
 
 ### Publishers
 - [Frontend](http://anyvent.github.io/docs/modules/Frontend)
