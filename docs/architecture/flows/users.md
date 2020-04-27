@@ -1,4 +1,6 @@
 # Users
+![user diagram](./img/user_create.svg)
+
 ## Modules invloved
 - [Frontend](http://anyvent.github.io/docs/modules/Frontend)
 - [Master UUID](http://anyvent.github.io/docs/modules/Master UUID)
