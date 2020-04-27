@@ -5,7 +5,7 @@
 
 ## Login GUI
 
-[Link to RabbitMQ gui]([http://10.3.56.9:15672/)
+[Link to RabbitMQ gui](http://10.3.56.9:15672/)
 login: `guest`
 password: `guest`
 (login wordt later aangepast)
