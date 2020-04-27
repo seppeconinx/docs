@@ -5,9 +5,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
 	<Header>
-		<Sender>{Module}</Sender> //Module vanwaar het komt
-		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
-		<Type>Create</Type> //Create, Update, Delete
+		<Sender>TestModule</Sender> 
+		<Timestamp>5444</Timestamp> 
+		<Type>Create</Type> 
 	</Header>
 	<User>
 		<UUID>315685156</UUID>
@@ -34,8 +34,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
 	<Header>
-		<Sender>{Module}</Sender> //Module vanwaar het komt
-		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
+		<Sender>TestModule</Sender> 
+		<Timestamp>5444</Timestamp> 
 	</Header>
 	<Mapping>
 		<UUID>315685156</UUID>
@@ -50,9 +50,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
 	<Header>
-		<Sender>{Module}</Sender> //Module van waar het komt
-		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
-		<Type>Create</Type> //Create, Update, Delete
+		<Sender>TestModule</Sender> 
+		<Timestamp>5444</Timestamp> 
+		<Type>Create</Type>
 	</Header>
 	<event>
 		<UUID>315685156</UUID>
@@ -83,8 +83,8 @@
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Heartbeat version="1.0">
-	<Sender>{Module}</Sender> //Module van waar het komt
-	<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
+	<Sender>TestModule</Sender> 
+	<Timestamp>5444</Timestamp> 
 </Heartbeat>
 ```
 
@@ -94,11 +94,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
 	<Header>
-		<Sender>{Module}</Sender> //Module van waar het komt
-		<Timestamp>{unix timestamp}</Timestamp> //Wanneer het verzonden is
+		<Sender>TestModule</Sender> 
+		<Timestamp>5444</Timestamp>
 	</Header>
 	<Log>
-		<Type>Error</Type> //Warning, Error, Info, ...
+		<Type>Error</Type> 
 		<Msg>explanation error</Msg>
 	</Log>
 </Message>
