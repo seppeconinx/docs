@@ -89,7 +89,7 @@
 ```
 
 ## Log
-❌ [schema]()
+[schema](https://raw.githubusercontent.com/Anyvent/XSD/master/logging.xsd)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
