@@ -14,7 +14,7 @@ Type: console app
 #### User registration from Frontend
 Send [user XML](https://anyvent.github.io/docs/architecture/XML/#user) to `master-uuid-user-queue`
 
-Master UUID will send the [XML](https://anyvent.github.io/docs/architecture/XML/#user) to the topic exchange and the topic exchange `topic-ex` will send the message to every other module.
+Master UUID will send the [XML](https://anyvent.github.io/docs/architecture/XML/#user) to the topic exchange and the topic exchange `user-exchange` will send the message to every other module.
 
 
 #### Mapping user in master uuid after saving user in own system
