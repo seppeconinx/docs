@@ -1,6 +1,6 @@
 # Users
 ## Create
-![user_create.svg](./user_create.svg)
+![user_create.svg](./img/user_create.svg)
 
 ### Modules invloved
 - [Frontend](http://anyvent.github.io/docs/modules/Frontend)
