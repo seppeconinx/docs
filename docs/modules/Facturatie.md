@@ -4,8 +4,14 @@
 
 ## Development links
 
-[PHP API library](https://github.com/invoiceninja/sdk-php)
-[invoice ninja documentatie]()
+- [PHP API library](https://github.com/invoiceninja/sdk-php)
+
+- [invoice ninja documentatie](https://invoice-ninja.readthedocs.io/en/latest/developer_guide.html)
+
+- [invoice ninja models](https://github.com/invoiceninja/invoiceninja/tree/master/app/Models)
+
+
+
 
 ## Login GUI
 
