@@ -54,7 +54,7 @@
 		<Timestamp>5444</Timestamp> 
 		<Type>Create</Type>
 	</Header>
-	<event>
+	<Event>
 		<UUID>315685156</UUID>
 		<Name>Final Work Presentatie</Name>
 		<Date>dd-mm-yyyy</Date>
@@ -74,7 +74,7 @@
 			<Tag>IT</Tag>
 			<Tag>Nerd</Tag>
 		</Tags>
-	</event>
+	</Event>
 </Message>
 ```
 
