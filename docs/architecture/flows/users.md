@@ -1,8 +1,5 @@
 # Users
-## Create
-![user_create.svg](./img/user_create.svg)
-
-### Modules invloved
+## Modules invloved
 - [Frontend](http://anyvent.github.io/docs/modules/Frontend)
 - [Master UUID](http://anyvent.github.io/docs/modules/Master UUID)
 - [CRM](http://anyvent.github.io/docs/modules/CRM)
@@ -10,30 +7,29 @@
 - [Kassa](http://anyvent.github.io/docs/modules/Kassa)
 - [Mailinglist](http://anyvent.github.io/docs/modules/Mailinglist)
 
-### Queues & topics
-#### Frontend to MasterUUID
+## Frontend to MasterUUID
 Direct push into [Master UUID](http://anyvent.github.io/docs/modules/Master UUID).
 
-##### Publishers
+### Publishers
 - [Frontend](http://anyvent.github.io/docs/modules/Frontend)
 
-##### Subscribers
+### Subscribers
 - [Master UUID](http://anyvent.github.io/docs/modules/Master UUID)
 
-##### Datatype
+### Datatype
 [user xml](https://anyvent.github.io/docs/architecture/XML/#user)
 
-#### User exchange
+## User exchange
 Topic exchange `user-exchange`.
 
-##### Publishers
+### Publishers
 - [Master UUID](http://anyvent.github.io/docs/modules/Master UUID)
 
-##### Subscribers
+### Subscribers
 - [CRM](http://anyvent.github.io/docs/modules/CRM)
 - [Facturatie](http://anyvent.github.io/docs/modules/Facturatie)
 - [Kassa](http://anyvent.github.io/docs/modules/Kassa)
 - [Mailinglist](http://anyvent.github.io/docs/modules/Mailinglist)
 
-##### Datatype
+### Datatype
 [user xml](https://anyvent.github.io/docs/architecture/XML/#user)
