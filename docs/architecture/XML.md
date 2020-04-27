@@ -1,4 +1,5 @@
 # XML structure Anyvent
+[generate radnom](https://genxml)
 ## User
 [schema](https://raw.githubusercontent.com/Anyvent/XSD/master/general_user.xsd)
 ```xml
