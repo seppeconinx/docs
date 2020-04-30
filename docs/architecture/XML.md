@@ -80,7 +80,7 @@
 ```
 
 ## Event Registration
-❌ [schema](https://raw.githubusercontent.com/Anyvent/XSD/master/event_registration.xsd)
+[schema](https://raw.githubusercontent.com/Anyvent/XSD/master/event_registration.xsd)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
@@ -95,6 +95,9 @@
     </EventRegistration>
 </Message>
 ```
+Type can be `Register` or `Unregister`
+
+Register
 
 ## Heartbeat
 [schema](https://raw.githubusercontent.com/Anyvent/XSD/master/heartbeat.xsd)
