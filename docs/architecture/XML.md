@@ -79,6 +79,23 @@
 </Message>
 ```
 
+## Event Registration
+❌ [schema](https://raw.githubusercontent.com/Anyvent/XSD/master/event_registration.xsd)
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Message version="1.0">
+    <Header>
+        <Sender>TestModule</Sender> 
+        <Timestamp>5444</Timestamp> 
+        <Type>Register</Type> 
+    </Header>
+    <EventRegistration>
+        <UserId>789456</UserId>
+        <EventId>1234548</EventId>
+    </EventRegistration>
+</Message>
+```
+
 ## Heartbeat
 [schema](https://raw.githubusercontent.com/Anyvent/XSD/master/heartbeat.xsd)
 ```xml
