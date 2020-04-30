@@ -58,7 +58,8 @@
 	<Event>
 		<UUID>315685156</UUID>
 		<Name>Final Work Presentatie</Name>
-		<Timestamp>45546454</Time>
+		<StartDateTime>1207</StartDateTime>
+		<EndDateTime>3308</EndDateTime>
 		<Address>
 			<Street>Steenweg</Street>
 			<Housenumber>15</Housenumber>
