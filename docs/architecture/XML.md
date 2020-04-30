@@ -97,8 +97,6 @@
 ```
 Type can be `Register` or `Unregister`
 
-Register
-
 ## Heartbeat
 [schema](https://raw.githubusercontent.com/Anyvent/XSD/master/heartbeat.xsd)
 ```xml
