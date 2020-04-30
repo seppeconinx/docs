@@ -46,7 +46,7 @@
 ```
 
 ## Event
-❌ [schema](https://raw.githubusercontent.com/Anyvent/XSD/master/event.xsd)
+[schema](https://raw.githubusercontent.com/Anyvent/XSD/master/event.xsd)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
@@ -58,8 +58,7 @@
 	<Event>
 		<UUID>315685156</UUID>
 		<Name>Final Work Presentatie</Name>
-		<Date>dd-mm-yyyy</Date>
-		<Time>hh:mm</Time>
+		<Timestamp>45546454</Time>
 		<Address>
 			<Street>Steenweg</Street>
 			<Housenumber>15</Housenumber>
