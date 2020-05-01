@@ -2,7 +2,7 @@
 [azure](https://dev.azure.com/anyvent/Frontend)
 
 ## Wordpress
-[Link naar wordpress website](http://10.3.56.8:8081/)
+[Link naar wordpress website](http://10.3.56.8:80/)
 login: `admin`
 password: `admin`
 
