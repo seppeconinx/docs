@@ -10,17 +10,15 @@ login: `guest`
 password: `guest`
 (login wordt later aangepast)
 
-## Master queue
-
-master-queue
-
-## Master user mapping queue
-
-master-user-mapping-queue
-
 ## RabbitMQ queues
+[XML structuur](https://anyvent.github.io/docs/architecture/XML/)
 
-[XML structuur](https://anyvent.github.io/docs/XML/)
+## Master mapping queues
+| Item| queue|
+|----------------|------------|
+| User | master-user-mapping-queue |
+| Event | master-event-mapping-queue |
+
 
 ### Control room
 | Item| queue|
@@ -31,6 +29,7 @@ master-user-mapping-queue
 | Item| queue|
 |----------------|------------|
 | User | crm-user-queue |
+| Event | crm-event-queue |
 
 ### Facturatie
 | Item| queue|
@@ -46,16 +45,19 @@ master-user-mapping-queue
 | Item| queue|
 |----------------|------------|
 | User | kassa-user-queue |
+| Event | kassa-event-queue |
 
 ### Mailinglist
 | Item| queue|
 |----------------|------------|
 | User | mailinglist-user-queue |
+| Event | mailinglist-event-queue |
 
 ### Master UUID
 | Item| queue|
 |----------------|------------|
 | User | master-uuid-user-queue |
+| Event | master-uuid-event-queue |
 
 
 
