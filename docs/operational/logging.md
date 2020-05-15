@@ -1,12 +1,16 @@
 # Logging
 
+## Info
+
+- User/Event created, updated, deleted (cruds die succesvol zijn)
 - System startup
-- RuntimeException
-- ErrorException
-- AMQPDataReadException
-- AMQPRuntimeException
-- AMQPIOException
-- als de connectie met RabbitMQ weg valt tijdens het luisteren naar de queue
-- XML die binnen komt niet valid is
-- XML die buiten moet gaan niet valid is
-- Foutief type in xml bestand
+- Parsed XML successfully
+
+## Error
+
+- Failed to create, update, delete User/Event (cruds die niet succesvol zijn)
+- Failed to connect with "external system" (Salesforce, Mailinglist, Invoice ninja, Odoo & etc)
+- Incoming XML is not valid
+- Outgoing XML is not valid
+- Wrong type/property in XML
+- Failed to parse XML
