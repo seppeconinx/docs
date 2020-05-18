@@ -25,7 +25,7 @@
 			<Tag>Data</Tag>
 			<Tag>Networks</Tag>
 		</Tags>
-		<BirthDay>55765454</BirthDay>
+		<Birthday>55765454</Birthday>
 		<MailSubscribe>false</MailSubscribe>
 	</User>
 </Message>
