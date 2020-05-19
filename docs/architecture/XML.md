@@ -122,3 +122,35 @@ Type can be `Register` or `Unregister`
 	</Log>
 </Message>
 ```
+
+## Factuur
+❌[schema]()
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Message version="1.0">
+	<Header>
+		<Sender>TestModule</Sender> 
+		<Timestamp>5444</Timestamp>
+		<To>Module</To>
+	</Header>
+	<Invoice>
+		<Products>
+			<Product>
+				<Name></Name>
+				<UnitPrice></UnitPrice>
+				<Amount></Amount>
+			</Product>
+		</Products>
+		<Event>
+			<UserId></UserId>
+			<EventId></EventId>
+			<StartDate></StartDate>
+			<EndDate></EndDate>
+			<Pdf>Pdf in string/bytes</Pdf>
+		</Event>
+	</Invoice>
+</Message>
+```
+Pdf optional maken
+
+naam-invoice-queue
