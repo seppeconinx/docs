@@ -2,6 +2,13 @@
 [generate radnom](https://genxml)
 ## User
 [schema](https://raw.githubusercontent.com/Anyvent/XSD/master/general_user.xsd)
+
+**Type** kan een van de volgende opties zijn:
+- `Create`
+- `Delete`
+- `Archive` 
+- `Update`
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
@@ -125,8 +132,9 @@ Type can be `Register` or `Unregister`
 </Message>
 ```
 
-## Factuur
-❌[schema]()
+## Invoice
+[schema](https://raw.githubusercontent/Anyvent/XSD/master/invoice.xsd)
+Let op Pdf kan niet zomaar een string zijn maar moet weldegelijk base64 enocded zijn.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
