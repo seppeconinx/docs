@@ -132,9 +132,14 @@ Type can be `Register` or `Unregister`
 </Message>
 ```
 
+<<<<<<< HEAD
 ## Invoice
 [schema](https://raw.githubusercontent/Anyvent/XSD/master/invoice.xsd)
 Let op Pdf kan niet zomaar een string zijn maar moet weldegelijk base64 enocded zijn.
+=======
+## Factuur
+[schema](https://raw.githubusercontent.com/Anyvent/XSD/master/invoice.xsd)
+>>>>>>> f897a518f7980cef0e3ff455ca2db555ae7b4955
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
