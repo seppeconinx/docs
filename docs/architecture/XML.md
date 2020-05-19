@@ -124,7 +124,7 @@ Type can be `Register` or `Unregister`
 ```
 
 ## Factuur
-❌[schema]()
+[schema](https://raw.githubusercontent.com/Anyvent/XSD/master/invoice.xsd)
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
