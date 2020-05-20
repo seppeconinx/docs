@@ -6,3 +6,4 @@ repo_name: 'Anyvent/docs'
 repo_url: 'https://github.com/Anyvent/docs'
 theme:
   name: 'material'
+site_favicon: 'anyvent.ico'

@@ -2,6 +2,13 @@
 [generate radnom](https://genxml)
 ## User
 [schema](https://raw.githubusercontent.com/Anyvent/XSD/master/general_user.xsd)
+
+**Type** kan een van de volgende opties zijn:
+- `Create`
+- `Delete`
+- `Archive` 
+- `Update`
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Message version="1.0">
@@ -25,6 +32,8 @@
 			<Tag>Data</Tag>
 			<Tag>Networks</Tag>
 		</Tags>
+		<Birthday>55765454</Birthday>
+		<MailSubscribe>false</MailSubscribe>
 	</User>
 </Message>
 ```
@@ -122,3 +131,37 @@ Type can be `Register` or `Unregister`
 	</Log>
 </Message>
 ```
+
+## Invoice
+[schema](https://raw.githubusercontent/Anyvent/XSD/master/invoice.xsd)
+Let op Pdf kan niet zomaar een string zijn maar moet weldegelijk base64 enocded zijn.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Message version="1.0">
+	<Header>
+		<Sender>TestModule</Sender> 
+		<Timestamp>5444</Timestamp>
+		<To>Module</To>
+	</Header>
+	<Invoice>
+		<Products>
+			<Product>
+				<Name></Name>
+				<UnitPrice></UnitPrice>
+				<Amount></Amount>
+			</Product>
+		</Products>
+		<Event>
+			<UserId></UserId>
+			<EventId></EventId>
+			<StartDate></StartDate>
+			<EndDate></EndDate>
+			<Pdf>Pdf in string/bytes</Pdf>
+		</Event>
+	</Invoice>
+</Message>
+```
+Pdf optional maken
+
+naam-invoice-queue

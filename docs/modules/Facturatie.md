@@ -11,8 +11,6 @@
 - [invoice ninja models](https://github.com/invoiceninja/invoiceninja/tree/master/app/Models)
 
 
-
-
 ## Login GUI
 
 [Link to invoice ninja gui](http://10.3.56.10:8000)
