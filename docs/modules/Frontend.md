@@ -11,4 +11,4 @@ login: `wordpress`
 password: `wordpress`
 
 ## Node.js API
-[Link naar de API](http://10.3.56.8:9000)
+[Link naar de API](http://10.3.56.8)
